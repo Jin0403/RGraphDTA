@@ -46,7 +46,11 @@ scikit_learn==1.1.2
 
   Running preprocessing.py convert the raw data into graph format.
 
+  In this step, the preprocessed davis and KIBA datasets will be obtained.
+
 - Second, run train.py using `python train.py` to train MGraphDTA.
+
+  If you want to change the dataset for training, modify the dataset parameters in params.
 
   Explanation of parameters
 
